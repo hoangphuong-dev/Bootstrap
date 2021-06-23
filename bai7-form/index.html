@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bai7-form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<form action="">
+					<h2>Đăng ký</h2>
+					<div class="row">
+						<div class="col">
+							<label>Tên</label>
+							<input type="text" required class="form-control" placeholder="Nhập tên của bạn">
+						</div>
+						<div class="col">
+							<label>Tên</label>
+							<input type="text" required class="form-control" placeholder="Nhập họ của bạn">
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Email</label>
+						<input type="email" required class="form-control" placeholder="Nhập email của bạn">
+						<label>Password</label>
+						<input type="password" required class="form-control" placeholder="Nhập password của bạn">
+					</div>
+					<div class="form-group">
+						<label>Nơi sống</label>
+						<select class="form-control">
+							<option selected value="">Nơi sống của bạn</option>
+							<option value="">HCM</option>
+							<option value="">Hà Nội</option>
+							<option value="">Thanh Hoá</option>
+							option
+						</select>
+					</div>
+					<br>
+					<div class="form-group">
+						<label>Giới tính</label>
+						<div class="row">
+							<div class="col">
+								<label class="btn btn-outline-secondary">Nam
+									<input type="radio" name="gioi_tinh" value="Nam">
+								</label>
+							</div>
+							<div class="col">
+								<label class="btn btn-outline-secondary">Nữ
+									<input type="radio" name="gioi_tinh" value="Nữ">
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="checkbox">
+						<label>Tôi đồng ý điều khoản sử dụng</label>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-success">Submit</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Load jquery trước khi load boostrap js  -->
+	<script src="jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* sub-menu */
+.dropdown {
+	position: relative;
+	display: inline-block;
+
+
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: #f5f5f5;
+	z-index: 1;
+	list-style-type: none;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}

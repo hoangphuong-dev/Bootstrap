@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+	<!-- thanh menu nav -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarsupportedcontent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Giới thiệu</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="#">
+								Danh mục
+							</a>
+							<ul class="dropdown-content">
+								<li><a class="dropdown-item" href="#">Điện thoại</a></li>
+								<li><a class="dropdown-item" href="#">Máy tính bảng</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Thiết bị công nghệ</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Liên hệ</a>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="search">
+						<button class="btn btn-outline-success" type="submit">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- end thanh menu nav -->
+	<!-- start carousel : slide trình chiếu -->
+	<div id="carouselexampleindicators" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselexampleindicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1"></button>
+			<button type="button" data-bs-target="#carouselexampleindicators" data-bs-slide-to="1" aria-label="slide 2"></button>
+			<button type="button" data-bs-target="#carouselexampleindicators" data-bs-slide-to="2" aria-label="slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="2.jpg" class="d-block w-100">
+			</div>
+			<div class="carousel-item">
+				<img src="3.jpg" class="d-block w-100">
+			</div>
+			<div class="carousel-item">
+				<img src="4.jpg" class="d-block w-100">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselexampleindicators" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselexampleindicators" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">next</span>
+		</button>
+	</div>
+	<!-- end carousel : slide trình chiếu -->
+	<!-- list product -->
+	<div class="container">
+		<div class="row mt-3">
+			<h2 class="list-product-title">Sản phẩm mới nhất</h2>
+			<div class="list-product-subtitle">
+				<p>Đây là các sản phẩm mới nhất</p>
+			</div>
+			<div class="product-group">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="card card-product mb-3" style="width: 18rem;">
+							<img src="1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title product-title">Sản phẩm</h5>
+								<div class="cart-text">
+									<span class="del-price">100.000 vnd</span>
+									<span class="new-price">80.000 vnd</span>
+								</div>
+								<a href="#" class="btn btn-outline-info">Xem chi tiết</a>
+								<a href="#" class="btn btn-outline-info">Thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="card card-product mb-3" style="width: 18rem;">
+							<img src="1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title product-title">Sản phẩm</h5>
+								<div class="cart-text">
+									<span class="del-price">100.000 vnd</span>
+									<span class="new-price">80.000 vnd</span>
+								</div>
+								<a href="#" class="btn btn-outline-info">Xem chi tiết</a>
+								<a href="#" class="btn btn-outline-info">Thêm</a>
+								<h3 class="sale-sticky">Sale</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="card card-product mb-3" style="width: 18rem;">
+							<img src="1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title product-title">Sản phẩm</h5>
+								<div class="cart-text">
+									<span class="del-price">100.000 vnd</span>
+									<span class="new-price">80.000 vnd</span>
+								</div>
+								<a href="#" class="btn btn-outline-info">Xem chi tiết</a>
+								<a href="#" class="btn btn-outline-info">Thêm</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="card card-product mb-3" style="width: 18rem;">
+							<img src="1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title product-title">Sản phẩm</h5>
+								<div class="cart-text">
+									<span class="del-price">100.000 vnd</span>
+									<span class="new-price">80.000 vnd</span>
+								</div>
+								<a href="#" class="btn btn-outline-info">Xem chi tiết</a>
+								<a href="#" class="btn btn-outline-info">Thêm</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--end list product -->
+
+<!-- load jquery trước khi load boostrap js  -->
+<script src="jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
